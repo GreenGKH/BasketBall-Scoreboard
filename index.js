@@ -33,3 +33,10 @@ function add3PointsGuest() {
     countScoreGuest += 3
     scoreGuest.innerHTML = countScoreGuest
 }
+
+function restart() {
+    scoreGuest.textContent = "0"
+    scoreHome.textContent = "0"
+    countScoreGuest = 0
+    countScoreHome = 0
+}
